@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr); 
+    gap: 20px; 
+    background-color: black;
+
+}
+
+h1 {
+
+
+    grid-column: 1 / 4; 
+    grid-row: 1/2;
+    font-family: "input-mono", monospace;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    
+
+    
+}
+
+
+.content-total {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    font-family: input-mono, monospace;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.content-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row: 3 / 6;
+    grid-column: 1 / 7;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+    
+    
+}
+
+ .content-MANHATTAN, .content-BROOKLYN, .content-QUEENS, .content-BRONX, .content-STATEN-ISLAND {
+
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    font-family: input-mono, monospace;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+
+}
+
+.incident-number{
+    display: grid;
+    grid-column: 2/4;
+    grid-row:2/3 ;
+    font-family: input-mono, monospace;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+}
+
+
+
+.content-MANHATTAN {
+
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    border-bottom:1px solid white;
+    border-right:1px solid white;
+
+}
+
+
+.content-BROOKLYN {
+
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    border-bottom:1px solid white;
+    border-right: 1px solid white;
+    
+}
+
+.content-QUEENS {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    border-bottom:1px solid white;
+    border-right:1px solid white;
+}
+
+.content-BRONX {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    border-bottom:1px solid white;
+    border-right:1px solid white;
+}
+
+.content-STATEN-ISLAND {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    border-bottom:1px solid white;
+    border-right:1px solid white;
+}

@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr); 
+    gap: 20px; 
+    background-color: black;
+
+}
+
+
+h1{
+    grid-column: 1 / 4; 
+    grid-row: 1/2;
+    font-family: "input-mono", monospace;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    margin-left: 5px;
+    font-size: 50px;
+}
+
+.summary-container{
+
+    grid-column: 1/2;
+    grid-row: 2/6;
+    display: flex;
+    flex-direction: column;
+    font-family: "input-mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.h2{
+
+    font-family: "input-mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    
+}
+
+.h2-number{
+
+    font-family: "input-mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 90px;
+
+    
+
+
+
+}
